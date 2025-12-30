@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "b9387185b05c5f02",
+    "id": "973cd6010d32dfb7",
     "type": "split",
     "children": [
       {
-        "id": "83a74a40798a815f",
+        "id": "2221d3771ef49623",
         "type": "tabs",
         "children": [
           {
-            "id": "f040f8438fe2650f",
+            "id": "17ca6cd82bf6b6a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "手机端的obsidian/index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
+              "title": "新标签页"
             }
           }
         ]
@@ -27,11 +23,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "39e28765cd1194e8",
+    "id": "be393715f7d38d9b",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "376a51ed109f48b9",
+        "id": "3e9fd2766bc1605a",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -44,7 +40,7 @@
         }
       },
       {
-        "id": "6a337158bc08941d",
+        "id": "f12bae6558a7a4e8",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -57,11 +53,11 @@
             "sortOrder": "alphabetical"
           },
           "icon": "lucide-search",
-          "title": "Search"
+          "title": "搜索"
         }
       },
       {
-        "id": "eb83038c6d875029",
+        "id": "4d12bc6a87840c67",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -72,11 +68,11 @@
             "searchQuery": ""
           },
           "icon": "lucide-tags",
-          "title": "Tags"
+          "title": "标签"
         }
       },
       {
-        "id": "44858fb4e6954951",
+        "id": "529efee492081af9",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -86,33 +82,32 @@
             "searchQuery": ""
           },
           "icon": "lucide-archive",
-          "title": "All properties"
+          "title": "添加笔记属性"
         }
       },
       {
-        "id": "13bad68322f3d7ac",
+        "id": "d680369116fd3417",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
           "state": {},
           "icon": "lucide-bookmark",
-          "title": "Bookmarks"
+          "title": "书签"
         }
       }
     ],
     "currentTab": 0
   },
   "right": {
-    "id": "383fec8df384aca9",
+    "id": "bf0d49f66521b1b8",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "e62adf771ba445f7",
+        "id": "0d6b8671125b7ed0",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "手机端的obsidian/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -126,32 +121,30 @@
         }
       },
       {
-        "id": "3251890fa5f625d7",
+        "id": "94a751263bca2492",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "手机端的obsidian/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
           "icon": "links-going-out",
-          "title": "Outgoing links"
+          "title": "出链"
         }
       },
       {
-        "id": "ec49a0f67745e8a4",
+        "id": "683500192568caa1",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "手机端的obsidian/index.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
           },
           "icon": "lucide-list",
-          "title": "Outline"
+          "title": "大纲"
         }
       }
     ],
@@ -168,17 +161,6 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "f040f8438fe2650f",
-  "lastOpenFiles": [
-    "_.obsidian/plugins/obsidian-image-auto-upload-plugin/manifest.json.txt",
-    "_.obsidian/plugins/obsidian-image-auto-upload-plugin",
-    "_.obsidian/plugins",
-    "_.obsidian",
-    "手机端的obsidian/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg",
-    "手机端的obsidian/index.md",
-    "手机端的obsidian/images",
-    "手机端编辑的/index.md",
-    "手机端的obsidian/ZLIBPC.jpeg",
-    "手机端的obsidian"
-  ]
+  "active": "17ca6cd82bf6b6a7",
+  "lastOpenFiles": []
 }
