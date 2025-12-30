@@ -1,5 +1,5 @@
 ---
-title: obsidian制作的文章
+title: 手机端obsidian制作的文章
 description: 小标题
 date: 2025-12-29
 ---

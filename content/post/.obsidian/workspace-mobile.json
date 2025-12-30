@@ -165,10 +165,13 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "bases:创建新数据库": false,
+      "obsidian-git:Open Git source control": false,
+      "github-gitless-sync:Open sync conflicts view": false,
+      "github-gitless-sync:Sync with GitHub": false
     }
   },
-  "active": "f040f8438fe2650f",
+  "active": "376a51ed109f48b9",
   "lastOpenFiles": [
     "手机端的obsidian/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg",
     "手机端的obsidian/index.md",
