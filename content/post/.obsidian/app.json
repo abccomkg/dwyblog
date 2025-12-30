@@ -1,5 +1,6 @@
 {
-  "attachmentFolderPath": "./images",
+  "attachmentFolderPath": "./",
   "useMarkdownLinks": true,
-  "newFileLocation": "root"
+  "newFileLocation": "root",
+  "alwaysUpdateLinks": true
 }
