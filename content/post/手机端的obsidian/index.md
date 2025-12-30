@@ -1,7 +1,7 @@
 ---
-title: 手机端obsidian制作的文章
+title: 手机端的ob文章
 description: 小标题
-date: 2025-12-29
+date: 2025-12-30
 ---
 
 ## 正文测试
