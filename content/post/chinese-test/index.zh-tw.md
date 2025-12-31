@@ -3,7 +3,7 @@ title: Chinese Test
 description: 這是一個副標題
 date: 2020-09-09
 slug: test-chinese
-image: helena-hertz-wWZzXlDpMog-unsplash.webp
+image: helena-hertz-wWZzXlDpMog-unsplash.jpg
 categories:
     - Test
     - 測試

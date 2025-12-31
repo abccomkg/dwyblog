@@ -3,7 +3,7 @@ title: Japanese Test
 description: これはサブタイトル
 date: 2020-09-09
 slug: test-chinese
-image: helena-hertz-wWZzXlDpMog-unsplash.webp
+image: helena-hertz-wWZzXlDpMog-unsplash.jpg
 categories:
     - Test
     - テスト

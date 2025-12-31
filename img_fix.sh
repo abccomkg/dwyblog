@@ -1,22 +1,27 @@
 #!/bin/bash
-echo "📸 正在进行地毯式图片链接修复..."
+echo "📸 正在将图片转换为高兼容性 JPG 格式..."
 
 # 递归处理所有图片
-find content/post -type f \( -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" \) | while read -r img; do
+# 注意：这次我们只处理 png 和 jpeg，如果是原本就是 jpg 的，我们进行压缩
+find content/post -type f \( -name "*.png" -o -name "*.jpeg" -o -name "*.webp" -o -name "*.jpg" \) | while read -r img; do
     dir=$(dirname "$img")
     base=$(basename "$img")
     filename="${base%.*}"
     
-    # 转换图片
-    if cwebp -q 75 "$img" -o "$dir/$filename.webp" > /dev/null 2>&1; then
-        echo "✅ 已转换: $filename.webp"
+    # 跳过已经是处理好的 .jpg 且体积较小的文件，防止循环处理
+    # 我们统一转成 .jpg
+    target="$dir/$filename.jpg"
+    
+    # 使用 ImageMagick 进行转换和压缩
+    # -quality 80 可以在保持清晰度的同时大幅减小体积
+    if convert "$img" -quality 80 "$target" > /dev/null 2>&1; then
+        echo "✅ 已处理: $filename.jpg"
         
-        # 【核心修复】：在整个 content 目录下搜索并替换，不限于当前文件夹
-        # 使用 grep 先找一下哪些文件引用了这张图，然后精准替换
-        grep -rl "$base" content/ | xargs -r sed -i "s/$base/$filename.webp/g"
-        
-        # 删除原图
-        rm "$img"
+        # 只有当新旧文件名不同时，才替换链接并删除原图
+        if [ "$img" != "$target" ]; then
+            grep -rl "$base" content/ | xargs -r sed -i "s/$base/$filename.jpg/g"
+            rm "$img"
+        fi
     fi
 done
-echo "✨ 修复完成，现在所有链接应该都指向 .webp 了！"
+echo "✨ 所有图片已转为 JPG 并更新链接！"
