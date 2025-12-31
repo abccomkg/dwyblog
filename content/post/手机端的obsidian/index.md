@@ -1,5 +1,5 @@
 ---
-title: 手机端的obsidian
+title: 手机端的ob发文
 description: 小标题
 date: 2025-12-30
 ---
@@ -7,6 +7,4 @@ date: 2025-12-30
 ## 正文测试
 
 而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 
-![](https://www.baidu.com/img/flexible/logo/pc/result.png)
-
 ![](hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg)
