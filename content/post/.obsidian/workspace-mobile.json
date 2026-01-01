@@ -11,14 +11,12 @@
             "id": "f040f8438fe2650f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "手机端编辑的/index.md",
-                "mode": "source",
-                "source": false
+                "file": "手机端编辑的/index__assets/image-20260101024619961.jpg"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "image-20260101024619961"
             }
           }
         ]
@@ -170,21 +168,25 @@
   },
   "active": "f040f8438fe2650f",
   "lastOpenFiles": [
+    "手机端编辑的/index.md",
+    "手机端的obsidian/index.md",
+    "手机端编辑的/index__assets/image-20260101025230497.jpg",
+    "手机端编辑的/index__assets/image-20260101025148538.jpg",
+    "手机端的obsidian/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg",
+    "手机端编辑的/index__assets/image-20260101024817870.jpg",
+    "手机端编辑的/index__assets/image-20260101024742795.jpg",
+    "手机端编辑的/index__assets/image-20260101024703178.jpg",
+    "手机端编辑的/index__assets/image-20260101024619961.jpg",
     "手机端编辑的/index__assets/image-20251231195302214.jpg",
     "手机端编辑的/index__assets/image-20251231195157981.jpg",
     "手机端编辑的/index__assets",
     "手机端编辑的/temp6734802942727275535.html",
-    "手机端的obsidian/index.md",
     "手机端的obsidian/IMG_20250902_102915.jpg",
-    "手机端编辑的/index.md",
-    "手机端的obsidian/IMG_20250902_103055.jpg",
     "_.obsidian/plugins/obsidian-image-auto-upload-plugin/manifest.json.txt",
     "_.obsidian/plugins/obsidian-image-auto-upload-plugin",
     "_.obsidian/plugins",
     "_.obsidian",
-    "手机端的obsidian/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg",
     "手机端的obsidian/images",
-    "手机端的obsidian/ZLIBPC.jpeg",
     "手机端的obsidian"
   ]
 }
