@@ -11,14 +11,12 @@
             "id": "f040f8438fe2650f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "手机端的obsidian/index.md",
-                "mode": "source",
-                "source": false
+                "file": "放下电脑，我在手机里找回了写作的自由/image-20260101024742795.jpg"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-image",
+              "title": "image-20260101024742795"
             }
           }
         ]
@@ -168,11 +166,11 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "f040f8438fe2650f",
+  "active": "376a51ed109f48b9",
   "lastOpenFiles": [
+    "手机端的obsidian/index.md",
     "放下电脑，我在手机里找回了写作的自由/index.md",
     "放下电脑，我在手机里找回了写作的自由/image-20260101024817870.jpg",
-    "手机端的obsidian/index.md",
     "1234/index.md",
     "放下电脑，我在手机里找回了写作的自由/image-20260101025148538.jpg",
     "放下电脑，我在手机里找回了写作的自由/image-20260101024619961.jpg",
